@@ -7,15 +7,15 @@ namespace Task3
         static void Main(string[] args)
         {
             Console.WriteLine("\nТранспортное средство: Автомобиль");
-            Vehicle vehicle1 = new Vehicle(new Car());
+            Vehicle vehicle1 = new Car();
             vehicle1.VehicleInfo();
 
             Console.WriteLine("\nТранспортное средство: Самолет");
-            Vehicle vehicle2 = new Vehicle(new Plane());
+            Vehicle vehicle2 = new Plane();
             vehicle2.VehicleInfo();
 
             Console.WriteLine("\nТранспортное средство: Корабль");
-            Vehicle vehicle3 = new Vehicle(new Ship());
+            Vehicle vehicle3 = new Ship();
             vehicle3.VehicleInfo();
         }
     }
